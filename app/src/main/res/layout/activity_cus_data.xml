@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CusDataActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/text_cus_data"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:inputType="text"
+            android:imeOptions="actionSend"
+            android:text=""
+            android:textSize="20sp"
+            android:hint="Custom Data"
+            android:background="#B6B2B2"
+            android:gravity="start"
+            android:maxLength="200">
+        </EditText>
+    </LinearLayout>
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	    <Button
+	        android:id="@+id/btn_cus_data"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btn_cus_data" />
+    </LinearLayout>
+</LinearLayout>
